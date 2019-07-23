@@ -1,0 +1,25 @@
+{
+  "name": "mc-auth-standalone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theseedmc/mc-auth-standalone.git"
+  },
+  "author": "TechToolbox (@nkomarn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theseedmc/mc-auth-standalone/issues"
+  },
+  "homepage": "https://github.com/theseedmc/mc-auth-standalone#readme",
+  "dependencies": {
+    "binary-parser": "^1.4.0",
+    "express": "^4.17.1",
+    "minecraft-protocol": "^1.9.3",
+    "smart-buffer": "^4.0.2"
+  }
+}
