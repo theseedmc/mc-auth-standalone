@@ -52,7 +52,7 @@ server.on('login', function (client) {
         setTimeout(() => {
             // Remove token from list
             tokens.splice(tokens.indexOf(record), 1)
-        }, 10000)
+        }, 300000)
 
         // Kick player with message
         client.write("kick_disconnect", {reason: `{"text": "§7Hey there, ${client.username}!\n§7Your code is §a§l${token}§7."}`})
